@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+
+.wrap {
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 800px;
+    width: 800px;
+}
+
+img {
+    width: 100%;
+    height: 160px;
+}
+
+h1 {
+    float: left;
+    width: 100px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    width: 88%;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 25px;
+}
+
+a {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+}
+
+a:hover {
+    color: #428bca;
+}
+
+a:visited {
+    color: #000;
+}
+
+span {
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+strong {
+    font-size: 18px;
+    color: red;
+    float: left;
+    line-height: 34px;
+}
+
+.noidung {
+    width: 740px;
+    height: 100%;
+    padding: 30px;
+}
+
+.tieude {
+    font-family: Roboto, sans-serif;
+    border-bottom: 1px solid #eee;
+    height: 50px;
+    margin: 0;
+}
+
+.tieude>a {
+    float: right;
+    padding: 0;
+    margin: 0;
+    color: #428bca;
+}
+
+.SanPham {
+    padding: 0 15px;
+    margin: 30px 0;
+    height: 300px;
+    width: 100%;
+}
+
+.flycam:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flycam {
+    margin-top: 15px;
+    width: 190px;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    margin-right: 34px;
+    border: 1px solid #eee;
+}
+
+.gia {
+    width: 88%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.gia>p {
+    border-radius: 5px;
+    line-height: 34px;
+    width: 45px;
+    height: 30px;
+    margin: 0 0 0 30px;
+    float: left;
+    background: #ff9601;
+    text-align: center;
+}

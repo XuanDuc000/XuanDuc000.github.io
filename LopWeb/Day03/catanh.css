@@ -1,0 +1,43 @@
+body {
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'OpenSans', 'sans-serif';
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.anh>pan {
+    margin-top: 20px;
+}
+
+.anh {
+    text-align: center !important;
+    max-height: 500px;
+}
+
+.wrap {
+    background: #fff !important;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.noidung {
+    text-align: justify;
+    padding: 30px;
+}

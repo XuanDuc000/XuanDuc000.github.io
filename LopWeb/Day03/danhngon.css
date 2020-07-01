@@ -1,0 +1,41 @@
+body {
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'OpenSans', 'sans-serif';
+    font-size: 18px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.wrap {
+    background: #fff !important;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+.noidung {
+    text-align: justify;
+    padding: 30px;
+}
+
+.ynghiacuocsong {
+    font-size: 14px;
+}
+
+.anh {
+    margin-bottom: 30px;
+    text-align: center;
+}
