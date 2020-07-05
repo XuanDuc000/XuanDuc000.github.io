@@ -56,12 +56,12 @@ img {
     cursor: pointer;
 }
 
-@keyframes title {
+@keyframes traitim {
     50% {
         transform: scale(1.2);
     }
 }
 
 .anh2>img {
-    animation: title 0.4s ease-out infinite;
+    animation: traitim 0.4s 2s ease-out infinite;
 }
