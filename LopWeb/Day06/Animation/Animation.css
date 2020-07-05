@@ -63,5 +63,5 @@ img {
 }
 
 .anh2>img {
-    animation: title 0.4s 1s ease-out 3;
+    animation: title 0.4s 1s ease-out linear;
 }
