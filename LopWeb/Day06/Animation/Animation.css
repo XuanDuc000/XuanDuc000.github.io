@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #f1f1f1;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+    max-height: 100%;
+    background: #fff !important;
+}
+
+.noidung {
+    padding: 30px;
+    height: 100%;
+}
+
+.conterner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anh1 {
+    flex-basis: 236px;
+    max-height: 100%;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: solid 3px orange;
+}
+
+.anh1>img {
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.anh1:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+}
+
+.traitim {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.anh2 {
+    cursor: pointer;
+}
+
+@keyframes title {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.anh2>img {
+    animation: title 0.4s 1s ease-out 3;
+}
