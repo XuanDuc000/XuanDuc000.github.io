@@ -33,12 +33,11 @@ img {
     margin: 5px 10px;
     cursor: pointer;
     border: solid 3px orange;
-}
-
-.anh1>img {
     opacity: 1;
     transition: all 0.5s linear;
 }
+
+.anh1>img {}
 
 .anh1:hover {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
@@ -57,11 +56,23 @@ img {
 }
 
 @keyframes traitim {
-    50% {
-        transform: scale(1.2);
+    100% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(0.8);
+    }
+    60% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.8);
     }
 }
 
 .anh2>img {
-    animation: traitim 0.4s 2s ease-out infinite;
+    animation: traitim 1.5s 2s ease-out infinite;
 }
