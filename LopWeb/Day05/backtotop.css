@@ -256,15 +256,14 @@ nav>ul>li>a {
     right: 50px;
     display: flex;
     background: #ff6b1e;
-    max-width: 30px;
+    width: 50px;
     border-radius: 50%;
-    width: 100px;
     height: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .top>a>i {
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
 }
