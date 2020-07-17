@@ -1,0 +1,49 @@
+.mainsphv {
+    max-width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
+
+.tieudesphv {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.contronersphv {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.anhsphv {
+    max-width: 33.333%;
+    padding: 25px;
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+}
+
+.anhsphv:hover {
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+    transform: translate(5px, -5px);
+}
+
+.anhsphv>img {
+    max-width: 100%;
+}
+
+.tensp {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #535353;
+}
+
+.tensp>p {
+    margin: 0;
+}
+
+.noidungssphocv>p {
+    margin: 0;
+}

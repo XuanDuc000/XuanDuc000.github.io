@@ -1,0 +1,298 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 100%;
+    height: 100%;
+    background: #323031
+}
+
+footer {
+    background: #464646;
+    color: #fff;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: #535353 1px solid;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+section {
+    max-width: 100%;
+    padding: 0px;
+    height: 100%;
+}
+
+.warap {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 2;
+    color: #535353;
+}
+
+p>a {
+    text-decoration: none;
+    color: #0AA5B5;
+}
+
+nav {
+    height: 74.6px !important;
+    line-height: 74.6px;
+}
+
+nav>ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'UTMCafetaRegular';
+    padding: 0 15px;
+    transition: all 0.5s linear;
+}
+
+nav>ul>li>a:hover {
+    background: #535353;
+    color: #f1f1f1;
+}
+
+.controner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.banner {
+    transition: all 0.5s;
+    max-width: 6000px;
+    display: flex;
+}
+
+.banner>img {
+    max-width: 100%;
+}
+
+.noidung1 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.tieudehg {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.contronerhg {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.anhhg {
+    width: 570px;
+}
+
+.anhhg>a>img {
+    max-width: 100%;
+    border-radius: 20px;
+    opacity: 1;
+    transition: all 0.4s linear;
+    margin-top: 20px;
+}
+
+.anhhg>a>img:hover {
+    opacity: 0.8;
+    transform: translate(0, -5px);
+}
+
+.noidunghg {
+    width: 50%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.noidunghg>p>a {
+    background: #535353;
+    display: block;
+    text-align: center;
+    max-width: 80px;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+.noidunghg>p>a:hover {
+    background: #fff;
+    color: #535353;
+    border: solid 1px #535353;
+}
+
+.main {
+    max-width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    padding: 30px;
+    padding-bottom: 10px !important;
+    margin-bottom: 30px;
+}
+
+.noidungtacpham {
+    max-width: 100%;
+    height: 210px;
+    margin: auto;
+}
+
+.noidungtacpham>p {
+    text-align: justify;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.anhsp {
+    max-width: 100%;
+    margin: auto;
+}
+
+.anhsp>img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.tacpham {
+    max-width: 500px;
+    height: 724px !important;
+    height: 100%;
+    transition: all 0.4s linear;
+    padding: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tacpham:hover {
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+    transform: translate(5px, -5px);
+}
+
+.contronerfd {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.chinhtoi {
+    width: 200px;
+    order: 1;
+    margin: 50px 0;
+}
+
+.chinhtoi>p {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.chinhtoi>p>a {
+    text-transform: capitalize;
+}
+
+.chinhtoi>p>a:hover {
+    text-decoration: underline !important;
+}
+
+.giadinh {
+    margin: 50px 0;
+    order: 2;
+}
+
+.giadinh>p {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.giadinh>p>a {
+    text-transform: capitalize;
+}
+
+.giadinh>p>a:hover {
+    text-decoration: underline !important;
+}
+
+.hoanthienbanthan {
+    margin: 50px 0;
+    order: 2;
+}
+
+.hoanthienbanthan>p {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.hoanthienbanthan>p>a {
+    text-transform: capitalize;
+}
+
+.hoanthienbanthan>p>a:hover {
+    text-decoration: underline !important;
+}
+
+.slide {
+    max-width: 100%;
+    margin: 30px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dieuhuong {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 48%;
+    padding-left: 20px;
+}
+
+.dieuhuong i:last-child {
+    position: relative;
+    left: 1065px;
+}
+
+.contronerhg>a {
+    text-decoration: none;
+    color: #535353;
+}

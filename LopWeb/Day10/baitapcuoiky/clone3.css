@@ -1,0 +1,62 @@
+.anhminhhoa {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.anhminhhoa>img {
+    max-width: 50%;
+    margin-bottom: 1px;
+}
+
+.anhvegiadinh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anhvegiadinh>.anhme>img {
+    max-width: 100%;
+}
+
+.anhvegiadinh>.anhme>p {
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.anhvegiadinh>.anhme {
+    max-width: 25%;
+    padding: 20px;
+}
+
+.anhvegiadinh>.anhchi {
+    max-width: 25%;
+    padding: 20px;
+}
+
+.anhvegiadinh>.anhchi>img {
+    max-width: 100%;
+    max-height: 425.11px;
+}
+
+.anhvegiadinh>.anhchi>p {
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.anhtoi {
+    max-width: 25%;
+    padding: 20px;
+}
+
+.anhtoi>img {
+    max-width: 100%;
+}
+
+.anhtoi>p {
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
